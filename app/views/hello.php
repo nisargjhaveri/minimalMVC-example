@@ -1,1 +1,3 @@
-Message from "<?php echo $from; ?>"
+Message from "<?= $from; ?>"
+<br>
+<?php $this->load_fragment('frag') ?>
