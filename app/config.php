@@ -6,8 +6,12 @@ $cfg = array(
 
     'base_url'              => '',
 
-    'db_host'               => 'localhost',
-    'db_user'               => 'user',
-    'db_pass'               => 'password',
-    'db_name'               => 'dbname',
+    'databases'             => [
+            // 'name' => [
+            //     'db_host'   => '',
+            //     'db_user'   => '',
+            //     'db_pass'   => '',
+            //     'db_name'   => '',
+            // ]
+    ]
 );
